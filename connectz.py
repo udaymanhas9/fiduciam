@@ -27,7 +27,7 @@ def check_win(board, row, col, player, Z, X, Y):
 
 def process_game(X, Y, Z, moves):
     """Simulate the game given dimensions X,Y,Z and a list of moves (column numbers). 
-    Returns the result code 0-7 (for different scenarios)."""
+    Returns the result code 0-6 (for different scenarios)."""
     # Initialise an empty board and column heights
     board = [[0] * X for _ in range(Y)]
     heights = [0] * X  
